@@ -1,0 +1,58 @@
+.hiddenTag_container{
+    width: 100%;
+    display: flex;
+    height: 46px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    .hiddenTag_outer{
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        
+        .hiddenTag_left{
+        
+
+            .hiddenTag_item_outer{
+                height: 25px;
+                margin: 0 5px;
+                display: inline-block;
+                border-radius: 16px;
+                .hiddenTag_item{
+                    text-align: center;
+                    line-height: 25px;
+                    margin: 0 10px;
+
+                    a:hover {
+                        color: #1890FF;
+                    }
+                    
+                    .nav_a{
+                        display: inline-block;
+                        color:#86909c;
+                    }
+                    #fold{
+                        width:12px;
+                        height:10px;
+                        margin: 0 0 3.9px 3.9px;
+                    }
+                }
+            }
+        }
+        .nav_right{
+            height: 46px;
+            .nav_item{
+                display: inline-block;
+                height: 46px;
+                text-align: center;
+                line-height: 46px;
+                margin: 0 22px 0 0;
+                color:#86909c;
+            }
+            a:hover {
+                color: #1890FF;
+            }
+        }
+    }
+}

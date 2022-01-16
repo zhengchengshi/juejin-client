@@ -1,0 +1,17 @@
+.fixed_nav_outer{
+    margin: 15px 0 0 18px;
+    font-size: 14px;
+    width: 300px;
+    float: left;
+    
+    #fixed_nav_item1{
+        margin-left:0px;
+    }
+    .fixed_nav_item{
+        color:#86909c;
+        margin-left:30px;
+    }
+    a:hover {
+        color: #1890FF;
+    }
+}

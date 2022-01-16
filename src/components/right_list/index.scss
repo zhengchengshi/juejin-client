@@ -1,0 +1,173 @@
+.right_list_container{
+    float: right;
+    width:240px;
+    .right_list_outer{
+        .right_list_box1{
+            width: 240px;
+            height:96px;
+            padding: 16px;
+            .right_list_box1_front{
+                display: flex;
+                align-items: center;
+                #calender_icon{
+                    width:30px;
+                    height:30px;
+                }
+                .right_list_box1_front_font{
+                    font-size: 18px;
+                    display: inline-block;
+                    margin-left: 8px;
+                }
+                .right_list_box1_front_gosign{
+                    margin-left: 30px;
+                    width:72px;
+                    height:32px;
+                    border:1px solid #388eff;
+                    color:#388eff;
+                    border-radius: 50px;
+                    text-align: center;
+                    line-height: 32px;
+                    font-size: 14px;
+                }
+            }
+            .right_list_box1_under{
+                margin-top: 10px;
+                text-align: center;
+                font-size: 14px;
+                color: #4e5969;
+            }
+        }
+        .right_list_box2{
+            padding: 16px 0 0 16px;
+            display: flex;
+            margin-top: 16px;
+            #right_list_box2_qrcode{
+                width:50px;
+                height:50px;
+            }
+            .right_list_box2_right{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 8px;
+                .right_list_box2_firstline{
+                    font-size: 14px;
+                    width:131.2px;
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+                .right_list_box2_secondline{
+                    font-size: 12px;
+                    color:#86909c;
+                }
+            }
+            
+        }
+        .right_list_box3{
+            padding: 16px 0 0 16px;
+            margin-top: 24px;
+            .right_list_box3_title{
+                font-size: 14px;
+                color:#333;
+            }
+            .right_list_box3_authors{
+
+                .right_list_box3_author{
+                    margin-top: 20px;
+                    display: flex;
+
+                    .right_list_box3_author_avator{
+                        width:45px;
+                        height:45px;
+                        border-radius: 100px;
+                    }
+                    .right_list_box3_author_rightpart{
+                        margin-left: 5px;
+                        .right_list_box3_author_rightpart_fisrtline{
+                            display: flex;
+                            align-items: center;
+                            font-size: 13.6px;
+                            color:#333;
+                            line-height: 18px;
+                            .level_icon{
+                                margin-left: 10px;
+                            }
+                        }
+                        .right_list_box3_author_rightpart_secondline{
+                            font-size: 12px;
+                            color:#909090;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            line-height: 13.6px;
+
+                        }
+                    }
+                }
+            }
+            .right_list_box3_footer{
+                height: 43px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #007fff;
+                img{
+                    width:18px;
+                    height:12px;
+                    margin-top: 0.8px;
+                }
+            }
+        }
+        .right_list_box4{
+            width: 240px;
+            padding: 16px 16px 0 16px;
+            .right_list_box4_item{
+                display: flex;
+                align-items: center;
+                font-size: 13.6px;
+                margin-top: 10px;
+                .right_list_box4_item_img{
+                    width:43px;
+                    height:43px;
+                    border-radius: 2px;
+                    margin-right: 12px;
+                }
+            }
+        }
+        .right_list_box5{
+            margin-top: 22px;
+            a:hover{
+                color: #007fff;
+            }
+            a{
+                font-size: 12px;
+                color: #333;
+            }
+            li{
+                list-style:none;
+                float: left;
+            }
+            li:after{
+                content: '.';
+                margin: 0.4rem;
+                color: #c6cfda;
+            }
+            span{
+                display: inline-block;
+                font-size: 12px;
+            }
+            #weibo_icon{
+                display: inline-block;
+                width:24px;
+                height:24px;
+            }
+            
+            #weixin_icon{
+                display: inline-block;
+                width:24px;
+                height:24px;
+            }
+        }
+        
+    }
+}

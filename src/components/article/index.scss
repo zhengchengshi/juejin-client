@@ -1,0 +1,116 @@
+.article_container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    .article_outer{
+        width:60%;
+        h1{
+            font-weight: 700;
+        }
+        .article_information{
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            .article_information_leftpart{
+                .avator{
+                    border-radius: 100px;
+                    width:40px;
+                    height:40px;
+                }
+
+            }
+            .article_information_rightpart{
+                margin-left: 16px;
+                .user_information{
+                    display: flex;
+                    align-items: center;
+                    color: #515767;
+                    .level{
+                        margin-left: 10px;
+                    }
+                }
+                .article_post_information{
+                    .post_time{
+                        color: #8a919f;
+                    }
+                    .post_time::after{
+                        content: ' . ';
+                    }
+                    .read_num{
+                        color:#8a919f;
+                    }
+                }
+            }
+        }
+        .article_cover{
+            width:100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .article_content{
+            margin-top: 50px;
+        }
+        .remark{
+            margin: 50px 0;
+            .remarker_information{
+                display: flex;
+                margin-top: 30px;
+                .remarker_avator{
+                    width: 40px;
+                    height:40px;
+                    border-radius: 100px;
+                }
+                .right_part{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .right_part_header{
+                        display: flex;
+                        align-items: center;
+                        .remarker_name{
+                            margin: 0 5px 0 20px;
+                            color:#252933;
+                        }
+                        .remarker_position{
+                            margin-left: 16px;
+                            color: #8a919f;
+                        }
+                    }
+                    .remark_content{
+                        margin-left: 20px;
+                    }
+                    .second_level_remarker_outer{
+                        display: flex;
+                        justify-content: center;
+                        .second_level_remarker{
+                            margin-top: 30px;
+                            width: 95%;
+                            .second_level_remarker_information{
+                                display: flex;
+                                .second_level_remarker_avator{
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 100px;
+                                }
+                                .second_level_remarker_right_part{
+                                    margin-top: 2px;
+                                    margin-left: 13px;
+                                    .second_level_remarker_name{
+                                        color:#252933;
+                                    }
+                                    .second_level_remarker_content{
+                                        margin-top: 10px;
+                                        color:#515767;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

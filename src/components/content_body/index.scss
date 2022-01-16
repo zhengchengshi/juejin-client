@@ -1,0 +1,68 @@
+.content_body_container{
+    height:600px;
+    width: 74%;
+    float: left;
+    margin-top: 16px;
+    .content_body_outer{
+        width: 100%;
+        .content_body_item{
+            margin-bottom: 20px;
+            padding: 12px 16px 0 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .content_body_item_left{
+                .content_body_item_firstline{
+                    font-size: 12px;
+                    color: #86909c;
+                }
+                .content_body_item_secondpart{
+                    // background-color: dodgerblue;
+                    .content_body_item_title{
+                        color: #1d2129;
+                        margin: 6px 0;
+                        font-size: 16px;
+                    }
+                    .content_body_item_description{
+                        font-size: 12px;
+                        color: #86909c;
+                    }
+                    .content_body_item_secondpart_bottom{
+                        margin-top: 10px;
+                        font-size: 12px;
+                        color: #86909c;
+                        display: flex;
+                        align-items: center;
+                        span{
+                            display: inline-block;
+                            margin-right: 20px;
+                            margin-left: 3px;
+                        }
+                        .watch_icon{
+                            width:20px;
+                            height:20px;
+                        }
+                        .thumb_icon{
+                            width:20px;
+                            height:20px;
+                        }
+                        .comment_icon{
+                            width:20px;
+                            height:20px;
+                        }
+                    }
+                }
+            }
+            .content_body_item_right{
+                margin-right: 45px;
+                .content_body_item_img{
+                    float: right;
+                    width:120px;
+                    height:80px;
+                    border-radius: 3px;
+                    margin-left: 10px;;
+                }
+            }
+        }
+    }
+}

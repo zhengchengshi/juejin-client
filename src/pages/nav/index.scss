@@ -1,0 +1,54 @@
+.nav{
+    height: 46px;
+    .nav_shell{
+        position: fixed;
+        // top:60px;
+        width: 100%;
+        clear: both;
+        background-color: white;
+        .nav_container{
+            height: 46px;
+            display: flex;
+            justify-content: center;
+            .nav_outer{
+                width: 65%;
+                display: flex;
+                justify-content: space-between;
+                font-size: 14px;
+                .nav_left{
+                    height: 46px;
+                    .nav_item{
+                        display: inline-block;
+                        height: 46px;
+                        text-align: center;
+                        line-height: 46px;
+                        margin: 0 12px;
+                        a:hover {
+                            color: #1890FF;
+                        }
+                        
+                        .nav_a{
+                            color:#86909c;
+                        }
+                    }
+                }
+                .nav_right{
+                    height: 46px;
+                    .nav_item{
+                        display: inline-block;
+                        height: 46px;
+                        text-align: center;
+                        line-height: 46px;
+                        margin: 0 22px 0 0;
+                        color:#86909c!important;
+                        text-decoration: none;
+                    }
+                    
+                    a:hover {
+                        color: #1890FF;
+                    }
+                }
+            }
+        }
+    }
+}
