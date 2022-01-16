@@ -1,6 +1,6 @@
 ## 项目介绍
 
-本次完成的项目内容为镜像计划的中级任务 掘金客户端 花费时间约为三周左右，前端选用react框架进行开发，适配手段采用postcss-px-to-viewport，样式采用sass预处理器修饰，组件通信采用PubSub-js实现，后端采用express框架开发，后端所有数据均来源于掘金，采用puppeteer进行数据爬取，后端数据库选用mongoDB，结合mongoose进行数据库操作。
+本次完成的项目内容为镜像计划的中级任务掘金客户端花费时间约为三周左右，前端选用react框架进行开发，适配手段采用postcss-px-to-viewport，样式采用sass预处理器修饰，组件通信采用PubSub-js实现，后端采用express框架开发，后端所有数据均来源于掘金，采用puppeteer进行数据爬取，后端数据库选用mongoDB，结合mongoose进行数据库操作。
 
 ### 使用方法：
 
